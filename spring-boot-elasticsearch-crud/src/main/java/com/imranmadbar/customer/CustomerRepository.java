@@ -9,4 +9,5 @@ public interface CustomerRepository extends ElasticsearchRepository<CustomerEnti
 
     List<CustomerEntity> findByFirstname(String firstName);
 
+
 }

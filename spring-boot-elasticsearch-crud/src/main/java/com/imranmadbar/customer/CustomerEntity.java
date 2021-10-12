@@ -19,7 +19,6 @@ public class CustomerEntity  implements Serializable {
     private String lastname;
     private int age;
 
-
     public String getId() {
         return id;
     }
@@ -51,4 +50,6 @@ public class CustomerEntity  implements Serializable {
     public void setAge(int age) {
         this.age = age;
     }
+
+
 }
