@@ -28,6 +28,7 @@ class HomeController {
         return response;
     }
 
+
     @RequestMapping(value = "/exc")
     public String exception() {
         String response = "";
