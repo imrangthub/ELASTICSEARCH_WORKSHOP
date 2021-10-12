@@ -1,0 +1,8 @@
+server:
+  port: 8081
+spring:
+  application:
+    name: spring-boot-elk-hello-world
+
+logging:
+  file: C:/Z_MY_COMPUTER/MY_TEMP/spring-boot-elk-hello-world.log
