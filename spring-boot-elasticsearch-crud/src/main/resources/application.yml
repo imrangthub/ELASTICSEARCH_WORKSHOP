@@ -1,0 +1,13 @@
+server:
+  port: 8081
+spring:
+  application:
+    name: spring-boot-elasticsearch-crud
+  data:
+    elasticsearch:
+      cluster-name: imran-cster-spring-boot-crud-app
+      cluster-nodes: localhost:9300
+      node.name: node-1
+
+logging:
+  file: C:/Z_MY_COMPUTER/MY_TEMP/spring-boot-elasticsearch-crud.log
