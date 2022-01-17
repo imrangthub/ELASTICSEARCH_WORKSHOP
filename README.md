@@ -18,6 +18,7 @@ InBin
 
 
 Elasticsearch:
+------------------------
 
   =>http://localhost:9200/.
   
@@ -31,7 +32,10 @@ Elasticsearch:
   
   
   
+  
+  
 Kibana: 
+----------------------------------------
 
   =>http://localhost:5601/.
 
