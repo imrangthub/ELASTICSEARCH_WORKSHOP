@@ -51,14 +51,17 @@ EL Operation
 
 
 List of Index
+
       =>GET /_cat/indices?v
      
      
 Creae a index
+
       =>PUT employee_indx
 
 
 Add data to Index
+
       =>POST employee_indx/_doc/1
       {
          "name":"MD IMRAN HOSSAIN", "gender":"Male",
@@ -67,6 +70,7 @@ Add data to Index
       
       
 Show Index date
+
       =>GET employee_indx/_doc/1
 
       =>POST /employee_indx/_search
@@ -75,6 +79,7 @@ Show Index date
       
       
   DeleteDate    
+  
       =>DELETE  employee_indx/_doc/11
 
 
