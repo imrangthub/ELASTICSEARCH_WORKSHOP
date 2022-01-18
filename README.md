@@ -50,5 +50,29 @@ EL Operation
 ============================
 
 =>GET /_cat/indices?v
+
 List of Index
+
+=>PUT employee_indx
+
+Creae a index
+
+
+
+=>POST employee_indx/_doc/1
+{
+   "name":"MD IMRAN HOSSAIN", "gender":"Male",
+   "age":"30", "city":"Dhaka"
+}
+
+=>GET employee_indx/_doc/1
+
+=>POST /employee_indx/_search
+
+=>POST /employee_indx/_search?filter_path=hits.hits
+
+Show Index date
+
+Create a Employee
+
 
