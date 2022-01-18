@@ -72,9 +72,7 @@ Add data to Index
 Show Index date
 
       =>GET employee_indx/_doc/1
-
       =>POST /employee_indx/_search
-
       =>POST /employee_indx/_search?filter_path=hits.hits
       
       
