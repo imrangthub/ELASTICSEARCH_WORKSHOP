@@ -49,30 +49,32 @@ Kibana:
 EL Operation
 ============================
 
-=>GET /_cat/indices?v
 
 List of Index
-
-=>PUT employee_indx
-
+      =>GET /_cat/indices?v
+     
+     
 Creae a index
+      =>PUT employee_indx
 
 
-
-=>POST employee_indx/_doc/1
-{
-   "name":"MD IMRAN HOSSAIN", "gender":"Male",
-   "age":"30", "city":"Dhaka"
-}
-
-=>GET employee_indx/_doc/1
-
-=>POST /employee_indx/_search
-
-=>POST /employee_indx/_search?filter_path=hits.hits
-
+Add data to Index
+      =>POST employee_indx/_doc/1
+      {
+         "name":"MD IMRAN HOSSAIN", "gender":"Male",
+         "age":"30", "city":"Dhaka"
+      }
+      
+      
 Show Index date
+      =>GET employee_indx/_doc/1
 
-Create a Employee
+      =>POST /employee_indx/_search
+
+      =>POST /employee_indx/_search?filter_path=hits.hits
+      
+      
+  DeleteDate    
+      =>DELETE  employee_indx/_doc/11
 
 
