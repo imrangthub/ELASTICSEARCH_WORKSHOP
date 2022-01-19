@@ -68,7 +68,21 @@ Add data to Index
          "age":"30", "city":"Dhaka"
       }
       
-      
+      =>PUT /student_indx
+       {
+         "settings": {
+           "number_of_shards": 1
+         },
+         "mappings": {
+           "properties": {
+             "name": { "type": "text" },
+             "age": { "type": "integer" },
+             "gender": { "type": "text" }
+           }
+         }
+       }
+       
+
 Show Index date
 
       =>GET employee_indx/_doc/1
