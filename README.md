@@ -53,6 +53,9 @@ Elasticsearch:
   =>http://localhost:9200/_cluster/settings?include_defaults=true&flat_settings=true
   
   
+  =>http://localhost:9200/school_indx/_mappings
+  
+  
   
   
   
