@@ -25,6 +25,9 @@ public class CustomerController {
     @GetMapping("/findByFName/{firstName}")
     public List<CustomerEntity> findByFirstName(@PathVariable String firstName) {
         return repository.findByFirstname(firstName);
+
+
+
     }
 
 
